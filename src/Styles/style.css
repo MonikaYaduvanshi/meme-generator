@@ -1,0 +1,111 @@
+.nav{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#672280, #672280 100%) ;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.nav--dark{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#672280, #672280 100%) ;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.imgStyle{ 
+    height: 31px;
+    width:25px;
+    padding: 30px 25px;
+}
+
+.nav--header{
+    padding-left: 30px;
+}
+.nav--login{
+    padding:20px;
+    margin-left:auto;
+    margin-right: 20px;
+    background-image: url("../Images/usericon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 5px;
+}
+
+/* Main styling */
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main--dark{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color : black;
+}
+.forms{
+    display: flex;
+    justify-content: space-around;
+}
+/* input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:200px;
+} */
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 30px;
+    padding-right: 20px;
+}
+.toptext{
+    margin: 20px;
+}
+.meme{
+    /* border: 12px solid #672280; */
+    color: #672280;
+    font-size: 24px;
+}
+.memeImage{
+    margin : -10px;
+}
+.memeTopText{
+    position: absolute;
+    left:30%;
+    top:30%;
+    padding: 20px;
+    font-size: 30px;
+}
+.memeButtomText{
+    position: absolute;
+    left:40%;
+    bottom:10%;
+    padding: 20px;
+    font-size: 40px;
+}
+.buttonStyle{
+    background-image: linear-gradient(#672280, #672280 100%) ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+/* box styling */
+.box{
+    height:100px;
+    width: 100px;
+    border: 1px solid black;
+    margin:5px;
+    border-radius: 5px;
+}
